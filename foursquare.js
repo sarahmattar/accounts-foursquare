@@ -14,6 +14,6 @@ if (Meteor.isClient) {
 } else {
     Accounts.addAutopublishFields({
         forLoggedInUser: ['services.foursquare'],
-        forOtherUsers: ['services.foursquare.username']
+        forOtherUsers: ['services.foursquare.id']
     });
 }

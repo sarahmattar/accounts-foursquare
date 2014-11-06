@@ -1,6 +1,7 @@
-ackage.describe({
+Package.describe({
     summary: "Login service for Foursquare accounts",
-    version: "0.1"
+    version: "0.1",
+    git: "https://github.com/msamoylov/accounts-foursquare.git"
 });
 
 Package.on_use(function(api) {

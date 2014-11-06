@@ -1,7 +1,7 @@
 Package.describe({
     name: 'msamoylov:accounts-foursquare',
     summary: "Login service for Foursquare accounts",
-    version: "1.0.1",
+    version: "1.0.2",
     git: "https://github.com/msamoylov/accounts-foursquare.git"
 });
 
